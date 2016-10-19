@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "http://may1705.sd.ece.iastate.edu/"
 languageCode = "en-us"
-title = "Team 05, Senior Design May 2016"
+title = "Team 05 Portfolio"
 theme = "hugo-agency-theme"
 
 [params]
@@ -36,10 +36,10 @@ theme = "hugo-agency-theme"
 
   # Navigation
   [params.navigation]
-    brand = "The Agency"
-    services = "Services"
-    portfolio = "Portfolio"
-    about = "About"
+    brand = "Team 5"
+    services = "Project"
+    portfolio = "Gallery"
+    about = "Timeline"
     team = "Team"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
@@ -52,43 +52,37 @@ theme = "hugo-agency-theme"
     #  name = "Hugo"
     #  weight = 10
 
-    # postpended links
-    [[menu.postpend]]
-      url = "http://gohugo.io"
-      name = "External link"
-      weight = 10
-
 
   # Hero section
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "Welcome To Our Studio!"
-    subtitle = "It's nice to meet you"
-    buttonText = "Tell me more"
+    title = "Welcome To Our Project Website!"
+    subtitle = "Check out how senior design is going"
+    buttonText = "Sup"
 
 
   # Services section
   [params.services]
     enable = true
-    title = "Services"
+    title = "The Project"
     subtitle = "Lorem ipsum dolor sit amet consectetur."
 
     [[params.services.row]]
 
     [[params.services.row.list]]
       icon = "fa-shopping-cart"
-      title = "E-Commerce"
+      title = "Cows"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
 
     [[params.services.row.list]]
       icon = "fa-laptop"
-      title = "Responsive Design"
+      title = "Stuff"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
 
     [[params.services.row.list]]
       icon = "fa-lock"
-      title = "Web"
+      title = "Things"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
 
   # Portfolio section
@@ -98,7 +92,7 @@ theme = "hugo-agency-theme"
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
-    title = "Portfolio"
+    title = "Gallery"
     subtitle = "Lorem ipsum dolor sit amet consectetur."
 
     [params.portfolio.modal]
@@ -111,7 +105,7 @@ theme = "hugo-agency-theme"
     # About section
   [params.about]
     enable = true
-    title = "About"
+    title = "Timeline"
     subtitle = "Lorem ipsum dolor sit amet consectetur."
     endpoint = "Be part<br>of our<br>story!"
 
@@ -153,82 +147,52 @@ theme = "hugo-agency-theme"
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
     [[params.team.members]]
-      img = "1.jpg"
-      name = "Kay Garland"
-      position = "Lead Designer"
+      img = "mitch.jpg"
+      name = "Mitchell Borman"
       social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
+	["fa-github", "#"],
         ["fa-linkedin", "#"]
       ]
 
     [[params.team.members]]
-      img = "2.jpg"
-      name = "Larry Parker"
-      position = "Lead Marketer"
+      img = "taylor.jpg"
+      name = "Taylor Dugger"
       social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
+	["fa-github", "#"],
         ["fa-linkedin", "#"]
       ]
 
     [[params.team.members]]
-      img = "3.jpg"
-      name = "Diana Pertersen"
-      position = "Lead Developer"
+      img = "ray.jpg"
+      name = "Raymond Kinsella"
       social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
+	["fa-github", "#"],
         ["fa-linkedin", "#"]
       ]
 
-  # Client section
-    [params.clients_list]
-      enable = true
+    [[params.team.members]]
+      img = "joe.jpg"
+      name = "Joseph McGovern"
+      social = [
+	["fa-github", "#"],
+        ["fa-linkedin", "#"]
+      ]
 
-      # All the clients' logos are stored under 'static/img/logos'.
-      # Replace them with your clients's logos.
-      [[params.clients]]
-        logo = "envato.jpg"
-        link = "#"
+    [[params.team.members]]
+      img = "tyler.jpg"
+      name = "Tyler Stapler"
+      social = [
+	["fa-github", "https://github.com/tstapler"],
+        ["fa-linkedin", "https://www.linkedin.com/in/tstapler"]
+      ]
 
-      [[params.clients]]
-        logo = "designmodo.jpg"
-        link = "#"
-
-      [[params.clients]]
-        logo = "themeforest.jpg"
-        link = "#"
-
-      [[params.clients]]
-        logo = "creative-market.jpg"
-        link = "#"
-
-
-  # Contact section
-  [params.contact]
-    enable = true
-    title = "Contact us"
-    subtitle  = "Lorem ipsum dolor sit amet consectetur."
-    buttonText = "Send message"
-
-    # 'warning' defines error messages for invalid inputs
-    [params.contact.form.name]
-      text = "Your Name *"
-      warning = "Please enter your name."
-
-    [params.contact.form.email]
-      text = "Your Email *"
-      warning = "Please enter your email address."
-
-    [params.contact.form.phone]
-      text = "Your Phone *"
-      warning = "Please enter your phone number."
-
-    [params.contact.form.message]
-      text = "Your Message *"
-      warning = "Please enter a message."
-
+    [[params.team.members]]
+      img = "austin.jpg"
+      name = "Austin Yurchik"
+      social = [
+	["fa-github", "#"],
+        ["fa-linkedin", "#"]
+      ]
 
   # Footer section
   [params.footer]
