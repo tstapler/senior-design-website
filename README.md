@@ -2,7 +2,8 @@
 
 This is the Team 05, May 2017 project [website](http://may1705.sd.ece.iastate.edu/) (PS. They'll probably delete the website eventually)
 
-## Hacking
+
+## Getting Started
 
 To get started hacking on the website, clone the repo
 
@@ -35,6 +36,12 @@ Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
 Press Ctrl+C to stop
 
 ```
+
+## Making Changes
+
+You can change most of the website's content through the config.toml at the root of the repository.
+
+Profile images should be placed in the `themes/hugo-agency-theme/static/img/team/` folder and be of the format `firstname.jpg`. A headshot of moderate size should work best
 
 ## Deployment
 
