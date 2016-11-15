@@ -14,7 +14,7 @@ theme = "hugo-agency-theme"
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "Iowa State Senior Design - Performance Livestock Analytics"
+  name = "Team May1705 - Cattle Krush"
   description = "Helping ranchers stay one step ahead of the market"
 
   # Link custom assets relative to /static
@@ -38,8 +38,7 @@ theme = "hugo-agency-theme"
   [params.navigation]
     brand = "Team 5"
     services = "Project"
-    portfolio = "Gallery"
-    about = "Timeline"
+    portfolio = "Mockups"
     team = "Team"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
@@ -58,11 +57,13 @@ theme = "hugo-agency-theme"
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
     title = "Welcome To Our Project Website!"
-    subtitle = "Check out how senior design is going"
+    subtitle = "Check out how Cattle Krush is going"
     buttonText = "Sup"
 
 
-  # Services section
+
+  # Summary section
+  # We should include what the project is, why it matters, and a blurb about performance livestock analytics
   [params.services]
     enable = true
     title = "The Project"
@@ -85,14 +86,17 @@ theme = "hugo-agency-theme"
       title = "Things"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
 
-  # Portfolio section
+  # Mockups section
+  #
+  # We should include each of the Cattle Krush screen 
+  # mockups and an explanation of how they work
   [params.portfolio]
     enable = true
-    # All projects defined in their own files. You can find example projects
+    # All mockups defined in their own files. You can find example projects
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
-    title = "Gallery"
+    title = "Mockups"
     subtitle = "Lorem ipsum dolor sit amet consectetur."
 
     [params.portfolio.modal]
@@ -102,41 +106,6 @@ theme = "hugo-agency-theme"
       buttonText = "Close project"
 
 
-    # About section
-  [params.about]
-    enable = true
-    title = "Timeline"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    endpoint = "Be part<br>of our<br>story!"
-
-    # The events will be listed from the top to the bottom.
-    # All images are stored under 'static/img/about'.
-    # Replace them with your own.
-    [[params.about.events]]
-      img = "1.jpg"
-      date = "2009-2011"
-      title = "Our Humble Beginnings"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-
-    [[params.about.events]]
-      img = "2.jpg"
-      date = "March 2011"
-      title = "An Agency is Born"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-
-    [[params.about.events]]
-      img = "3.jpg"
-      date = "December 2012"
-      title = "Our Humble Beginnings"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-
-    [[params.about.events]]
-      img = "4.jpg"
-      date = "July 2014"
-      title = "Phase Two Expansion"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-
-
   # Team section
   [params.team]
     enable = true
@@ -144,7 +113,7 @@ theme = "hugo-agency-theme"
     subtitle = "Lorem ipsum dolor sit amet consectetur."
     description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
 
-    # All team member's pictures are stored under 'static/img/team'.
+    # All team member's pictures are stored under 'themes/hugo-agency-theme/static/img/team'.
     # Replace them with your own too.
     [[params.team.members]]
       img = "mitch.jpg"
@@ -193,28 +162,3 @@ theme = "hugo-agency-theme"
 	["fa-github", "#"],
         ["fa-linkedin", "#"]
       ]
-
-  # Footer section
-  [params.footer]
-    enable = true
-    copyright = "Published under the Apache License 2.0."
-
-    [[params.footer.social]]
-      icon = "fa-twitter"
-      link = "#"
-
-    [[params.footer.social]]
-      icon = "fa-facebook"
-      link = "#"
-
-    [[params.footer.social]]
-      icon = "fa-linkedin"
-      link = "#"
-
-    [[params.footer.quicklinks]]
-      text = "Privacy Policy"
-      link = "#"
-
-    [[params.footer.quicklinks]]
-      text = "Terms of Use"
-      link = "#"

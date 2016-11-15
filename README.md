@@ -43,6 +43,8 @@ You can change most of the website's content through the config.toml at the root
 
 Profile images should be placed in the `themes/hugo-agency-theme/static/img/team/` folder and be of the format `firstname.jpg`. A headshot of moderate size should work best
 
+In `config.toml` ignore if the variable names are rather weird, this theme is adapted from a design agency website. If you feel ambitious, go ahead and change the templates and the variable names to fit what we're doing.
+
 ## Deployment
 
 After you have hugo installed to generate the site use the following command
