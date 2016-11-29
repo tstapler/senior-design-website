@@ -41,6 +41,15 @@ theme = "hugo-agency-theme"
     portfolio = "Mockups"
     team = "Team"
 
+    [[menu.postpend]]
+     url = "https://docs.google.com/document/d/1r2jGtpfzgsy1-tWQ9DnQHK4rI6s-jWnPEPl70FV_JIw/edit?usp=sharing"
+     name = "Design Document"
+     weight = 10
+    [[menu.postpend]]
+     url = "https://docs.google.com/document/d/1FFCXcG5K97WREelkpD-ol_I10lQjhgHioQcs_KUAT5U/edit?usp=sharing"
+     name = "Project Plan"
+     weight = 10
+
     # Add custom links. Those can be pre- and postpended to the default menu above.
     # Use the weight attribute to order your custom links. Uncomment the example
     # below and replace the values with your own.
