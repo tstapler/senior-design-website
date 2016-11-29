@@ -128,8 +128,8 @@ theme = "hugo-agency-theme"
       img = "mitch.jpg"
       name = "Mitchell Borman"
       social = [
-	["fa-github", "#"],
-        ["fa-linkedin", "#"]
+	["fa-github", "https://github.com/mfborman"],
+        ["fa-linkedin", "https://www.linkedin.com/in/mitchell-borman-587987105"]
       ]
 
     [[params.team.members]]
