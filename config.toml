@@ -97,7 +97,7 @@ theme = "hugo-agency-theme"
 
   # Mockups section
   #
-  # We should include each of the Cattle Krush screen 
+  # We should include each of the Cattle Krush screen
   # mockups and an explanation of how they work
   [params.portfolio]
     enable = true
@@ -144,8 +144,8 @@ theme = "hugo-agency-theme"
       img = "ray.jpg"
       name = "Raymond Kinsella"
       social = [
-	["fa-github", "#"],
-        ["fa-linkedin", "#"]
+	["fa-github", "https://github.com/kinsella333"],
+        ["fa-linkedin", "https://www.linkedin.com/in/ray-kinsella-692376b0"]
       ]
 
     [[params.team.members]]
