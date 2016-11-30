@@ -76,7 +76,7 @@ theme = "hugo-agency-theme"
   [params.services]
     enable = true
     title = "The Project: Cattle Krush"
-    subtitle = "A multi-platform  application for tracking cattle finances."
+    subtitle = "A multi-platform tool for navigating the cattle futures market."
 
     [[params.services.row]]
 
@@ -84,12 +84,12 @@ theme = "hugo-agency-theme"
 
     [[params.services.row.list]]
       icon = " fa-exclamation"
-      title = "The problem"
+      title = "The Problem"
       description = "Every year farmers across America lose hundreds of thousands of dollars selling their head. Keeping track of each individual head's feed, weight, age, and health is an overwhelming task to do be hand. On top of this, the Chicago Stock Exchange only provides room for profit a few hours each week."
 
     [[params.services.row.list]]
       icon = " fa-lightbulb-o"
-      title = "The solution"
+      title = "The Solution"
       description = "Cattle Krush allows farmers to track every aspect of each individual head's health. It automatically calculates useful figures such as the cost of feeding head to a certain weight, or how long it will take for a head to reach its target weight. It also offers live notifications to the farmer when their head can be sold for a profit on the Chicago Stock Exchange."
 
     [[params.services.row.list]]
@@ -171,5 +171,5 @@ theme = "hugo-agency-theme"
       name = "Austin Yurchik"
       social = [
 	["fa-github", "https://github.com/ayurchik"],
-        ["fa-linkedin", "https://www.linkedin.com/in/austin-yurchik-034043122?trk=nav_responsive_tab_profile"]
+        ["fa-linkedin", "https://www.linkedin.com/in/austin-yurchik-034043122"]
       ]
