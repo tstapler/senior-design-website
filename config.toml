@@ -67,7 +67,7 @@ theme = "hugo-agency-theme"
     # the 'static/img' folder.
     title = "Welcome To Our Project Website!"
     subtitle = "Want to know more about Cattle Krush?"
-    buttonText = "Sup"
+    buttonText = "Check it out!"
 
 
 
