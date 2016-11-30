@@ -75,25 +75,27 @@ theme = "hugo-agency-theme"
   # We should include what the project is, why it matters, and a blurb about performance livestock analytics
   [params.services]
     enable = true
-    title = "The Project"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    title = "The Project: Cattle Krush"
+    subtitle = "A multi-platform  application for tracking cattle finances."
 
     [[params.services.row]]
 
-    [[params.services.row.list]]
-      icon = "fa-shopping-cart"
-      title = "Cows"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+# See a cheatsheet of font-awesome icons here http://fontawesome.io/cheatsheet/
 
     [[params.services.row.list]]
-      icon = "fa-laptop"
-      title = "Stuff"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      icon = " fa-exclamation"
+      title = "The problem"
+      description = "Every year farmers across America lose hundreds of thousands of dollars selling their head. Keeping track of each individual head's feed, weight, age, and health is an overwhelming task to do be hand. On top of this, the Chicago Stock Exchange only provides room for profit a few hours each week."
 
     [[params.services.row.list]]
-      icon = "fa-lock"
-      title = "Things"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      icon = " fa-lightbulb-o"
+      title = "The solution"
+      description = "Cattle Krush allows farmers to track every aspect of each individual head's health. It automatically calculates useful figures such as the cost of feeding head to a certain weight, or how long it will take for a head to reach its target weight. It also offers live notifications to the farmer when their head can be sold for a profit on the Chicago Stock Exchange."
+
+    [[params.services.row.list]]
+      icon = "fa-plus"
+      title = "Implications"
+      description = "With Cattle Krush, farmers are finally able to effectively track their cattle's growth, and consistantly sell them for a profit on the open market. Cattle Krush is the future of livestock management."
 
   # Mockups section
   #
@@ -105,8 +107,8 @@ theme = "hugo-agency-theme"
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
-    title = "Mockups"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    title = "Screen Mockups"
+    subtitle = "Each screen the Cattle Krush app has to offer."
 
     [params.portfolio.modal]
       client = "Client"
@@ -118,9 +120,9 @@ theme = "hugo-agency-theme"
   # Team section
   [params.team]
     enable = true
-    title = "Our amazing team"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+    title = "Meet the team"
+    subtitle = "Learn more about each member by visiting their profiles."
+    description = "Our team consists of six Iowa State University students. We are all enrolled in our final year at ISU, and are working together over the next couple months to complete our senior project in tandem with the wonderful startup Cattle Krush."
 
     # All team member's pictures are stored under 'themes/hugo-agency-theme/static/img/team'.
     # Replace them with your own too.
