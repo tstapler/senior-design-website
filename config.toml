@@ -168,6 +168,6 @@ theme = "hugo-agency-theme"
       img = "austin.jpg"
       name = "Austin Yurchik"
       social = [
-	["fa-github", "#"],
-        ["fa-linkedin", "#"]
+	["fa-github", "https://github.com/ayurchik"],
+        ["fa-linkedin", "https://www.linkedin.com/in/austin-yurchik-034043122?trk=nav_responsive_tab_profile"]
       ]
