@@ -66,7 +66,7 @@ theme = "hugo-agency-theme"
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
     title = "Welcome To Our Project Website!"
-    subtitle = "Check out how Cattle Krush is going"
+    subtitle = "Want to know more about Cattle Krush?"
     buttonText = "Sup"
 
 
