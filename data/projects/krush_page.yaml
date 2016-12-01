@@ -1,9 +1,0 @@
-modalID: 1
-title: Click me and read my ideas!!!
-subtitle: Possible ideas listed below image
-img: krush.png
-preview: krush.png
-client: Start Bootstrap
-clientLink: "#"
-category: Graphic Design
-description: We could put a scrollable version of our reports here, and have the preview image be a pretty font saying "Report X" on the homepage. Instead of the Client and Category we could post a link to the original document or something. Also if you're reading this and are confused on how to edit it, go to /data/projects/2014-07-05-projects-1.yaml. 
