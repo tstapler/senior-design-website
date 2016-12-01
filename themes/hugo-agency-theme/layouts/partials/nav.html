@@ -36,6 +36,12 @@
           </li>
         {{ end }}
 
+        {{ if .Site.Params.weekly_reports.enable }}
+          <li>
+            <a class="page-scroll" href="#weekly_reports">{{ with .Site.Params.navigation.weekly_reports }}{{ . | markdownify }}{{ end }}</a>
+          </li>
+        {{ end }}
+
         {{ if .Site.Params.about.enable }}
           <li>
             <a class="page-scroll" href="#about">{{ with .Site.Params.navigation.about }}{{ . | markdownify }}{{ end }}</a>

@@ -19,6 +19,10 @@
       {{ partial "about.html" . }}
     {{ end }}
 
+    {{ if .Site.Params.weekly_reports.enable }}
+      {{ partial "weekly_reports.html" . }}
+    {{ end }}
+
     {{ if .Site.Params.clients_list.enable }}
       {{ partial "clients.html" . }}
     {{ end }}

@@ -39,7 +39,8 @@ theme = "hugo-agency-theme"
     brand = "Team 5"
     summary = "Summary"
     portfolio = "Mockups"
-    team = "Team"
+    weekly_reports = "Weekly Reports"
+    team = "About Us"
     contact = "Contact Info"
 
     [[menu.postpend]]
@@ -117,6 +118,13 @@ theme = "hugo-agency-theme"
       category = "Category"
       buttonText = "Close project"
 
+
+  # Weekly Reports Section
+  [params.weekly_reports]
+    enable = true
+    title = "Weekly Reports"
+    subtitle = ""
+    drive_folder_id = "0B6EBAgXsSbcSS25UM2FCZkhzTUk"
 
   # Team section
   [params.team]
