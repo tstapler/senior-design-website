@@ -37,7 +37,7 @@ theme = "hugo-agency-theme"
   # Navigation
   [params.navigation]
     brand = "Team 5"
-    services = "Project"
+    summary = "Summary"
     portfolio = "Mockups"
     team = "Team"
     contact = "Contact Info"
@@ -74,26 +74,26 @@ theme = "hugo-agency-theme"
 
   # Summary section
   # We should include what the project is, why it matters, and a blurb about performance livestock analytics
-  [params.services]
+  [params.summary]
     enable = true
     title = "The Project: Cattle Krush"
     subtitle = "A multi-platform tool for navigating the cattle futures market."
 
-    [[params.services.row]]
+    [[params.summary.row]]
 
 # See a cheatsheet of font-awesome icons here http://fontawesome.io/cheatsheet/
 
-    [[params.services.row.list]]
+    [[params.summary.row.list]]
       icon = " fa-exclamation"
       title = "The Problem"
       description = "Every year farmers across America lose hundreds of thousands of dollars selling their head. Keeping track of each individual head's feed, weight, age, and health is an overwhelming task to do be hand. On top of this, the Chicago Stock Exchange only provides room for profit a few hours each week."
 
-    [[params.services.row.list]]
+    [[params.summary.row.list]]
       icon = " fa-lightbulb-o"
       title = "The Solution"
       description = "Cattle Krush allows farmers to track every aspect of each individual head's health. It automatically calculates useful figures such as the cost of feeding head to a certain weight, or how long it will take for a head to reach its target weight. It also offers live notifications to the farmer when their head can be sold for a profit on the Chicago Stock Exchange."
 
-    [[params.services.row.list]]
+    [[params.summary.row.list]]
       icon = "fa-plus"
       title = "Implications"
       description = "With Cattle Krush, farmers are finally able to effectively track their cattle's growth, and consistantly sell them for a profit on the open market. Cattle Krush is the future of livestock management."

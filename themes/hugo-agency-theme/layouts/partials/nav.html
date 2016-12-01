@@ -24,9 +24,9 @@
           </li>
         {{ end }}
 
-        {{ if .Site.Params.services.enable }}
+        {{ if .Site.Params.summary.enable }}
           <li>
-            <a class="page-scroll" href="#services">{{ with .Site.Params.navigation.services }}{{ . | markdownify }}{{ end }}</a>
+            <a class="page-scroll" href="#summary">{{ with .Site.Params.navigation.summary }}{{ . | markdownify }}{{ end }}</a>
           </li>
         {{ end }}
 
