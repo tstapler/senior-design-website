@@ -32,9 +32,6 @@
       {{ partial "team.html" . }}
     {{ end }}
 
-    {{ if .Site.Params.portfolio.enable }}
-      {{ partial "modals.html" . }}
-    {{ end }}
 
     {{ if .Site.Params.contact.enable }}
       {{ partial "contact.html" . }}
@@ -42,6 +39,10 @@
 
     {{ if .Site.Params.footer.enable }}
       {{ partial "footer.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.portfolio.enable }}
+      {{ partial "modals.html" . }}
     {{ end }}
 
 

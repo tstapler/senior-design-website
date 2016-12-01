@@ -113,10 +113,7 @@ theme = "hugo-agency-theme"
     subtitle = "Each screen the Cattle Krush app has to offer."
 
     [params.portfolio.modal]
-      client = "Client"
-      date = "Date"
-      category = "Category"
-      buttonText = "Close project"
+      buttontext = "Close Mockup"
 
 
   # Weekly Reports Section
