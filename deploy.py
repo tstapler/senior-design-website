@@ -21,4 +21,4 @@ def deploy_website():
     cloner.run()
 
 if __name__ == "__main__":
-    deploy_assets()
+    deploy_website()
