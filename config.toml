@@ -131,7 +131,7 @@ theme = "hugo-agency-theme"
     enable = true
     title = "Meet the team"
     subtitle = "Learn more about each member by visiting their profiles."
-    description = "Our team consists of six Iowa State University students. We are all enrolled in our final year at ISU, and are working together over the next couple months to complete our senior project in tandem with the wonderful startup Cattle Krush."
+    description = "Our team consists of six Iowa State University students. We are all enrolled in our final year at ISU, and are working together over the next couple months to complete our senior project in tandem with the wonderful startup Performance Livestock Analytics"
 
     # All team member's pictures are stored under 'themes/hugo-agency-theme/static/img/team'.
     # Replace them with your own too.
@@ -147,7 +147,7 @@ theme = "hugo-agency-theme"
       img = "taylor.jpg"
       name = "Taylor Dugger"
       social = [
-	["fa-github", "https://github.com/taylorsdugger"],
+	["fa-github", "#"],
         ["fa-linkedin", "#"]
       ]
 
@@ -170,6 +170,7 @@ theme = "hugo-agency-theme"
     [[params.team.members]]
       img = "tyler.jpg"
       name = "Tyler Stapler"
+      desc = "Senior in Computer Engineering interested in Distibuted Systems and Cyber Security."
       social = [
 	["fa-github", "https://github.com/tstapler"],
         ["fa-linkedin", "https://www.linkedin.com/in/tstapler"]

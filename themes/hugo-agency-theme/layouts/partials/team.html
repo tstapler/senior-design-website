@@ -13,7 +13,7 @@
           <div class="team-member">
             <img src="img/team/{{ .img }}" class="img-responsive img-circle" alt="">
             <h4>{{ .name | markdownify }}</h4>
-            <p class="text-muted"></p>
+            {{ if .desc }}<p class="text-muted">{{ .desc | markdownify }}</p>{{ end }}
             <ul class="list-inline social-buttons">
               {{ range .social }}
                 <li><a href="{{ index . 1 }}"><i class="fa {{ index . 0 }}"></i></a></li>
