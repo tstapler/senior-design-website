@@ -139,7 +139,7 @@ theme = "hugo-agency-theme"
       img = "taylor.jpg"
       name = "Taylor Dugger"
       social = [
-	["fa-github", "#"],
+	["fa-github", "https://github.com/taylorsdugger"],
         ["fa-linkedin", "#"]
       ]
 
