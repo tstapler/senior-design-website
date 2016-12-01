@@ -23,9 +23,6 @@
       {{ partial "clients.html" . }}
     {{ end }}
 
-    {{ if .Site.Params.contact.enable }}
-      {{ partial "contact.html" . }}
-    {{ end }}
 
     {{ if .Site.Params.team.enable }}
       {{ partial "team.html" . }}
@@ -33,6 +30,10 @@
 
     {{ if .Site.Params.portfolio.enable }}
       {{ partial "modals.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.contact.enable }}
+      {{ partial "contact.html" . }}
     {{ end }}
 
     {{ if .Site.Params.footer.enable }}

@@ -40,6 +40,7 @@ theme = "hugo-agency-theme"
     services = "Project"
     portfolio = "Mockups"
     team = "Team"
+    contact = "Contact Info"
 
     [[menu.postpend]]
      url = "https://docs.google.com/document/d/1r2jGtpfzgsy1-tWQ9DnQHK4rI6s-jWnPEPl70FV_JIw/edit?usp=sharing"
@@ -173,3 +174,25 @@ theme = "hugo-agency-theme"
 	["fa-github", "https://github.com/ayurchik"],
         ["fa-linkedin", "https://www.linkedin.com/in/austin-yurchik-034043122"]
       ]
+
+  # Contact section
+  [params.contact]
+    enable = true
+    title = "Contact Information"
+    subtitle  = "Direct your comments here"
+    buttonText = "Send message"
+
+  [[params.contact.methods]]
+    desc = "Email All Of Us On Our Iowa State Accounts"
+    icon = "envelope"
+    text = "may1705@iastate.edu"
+
+  [[params.contact.methods]]
+    desc = "Shared Group Email"
+    icon = "envelope"
+    text = "livestock.may1705@gmail.edu"
+
+  # Footer section
+  [params.footer]
+    enable = true
+    copyright = "Published under the Apache License 2.0."

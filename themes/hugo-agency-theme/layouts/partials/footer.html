@@ -5,6 +5,7 @@
       <div class="col-md-4">
         <span class="copyright">{{ with .Site.Params.footer.copyright }}{{ . | markdownify }}{{ end }}</span>
       </div>
+      {{ if .Site.Params.footer.social }}
       <div class="col-md-4">
         <ul class="list-inline social-buttons">
           {{ range .Site.Params.footer.social }}
@@ -12,6 +13,8 @@
           {{ end }}
         </ul>
       </div>
+      {{ end }}
+      {{ if .Site.Params.footer.quicklinks }}
       <div class="col-md-4">
         <ul class="list-inline quicklinks">
           {{ range .Site.Params.footer.quicklinks }}
@@ -20,5 +23,6 @@
         </ul>
       </div>
     </div>
+    {{ end }}
   </div>
 </footer>
