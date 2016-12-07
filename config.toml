@@ -214,3 +214,9 @@ theme = "hugo-agency-theme"
   [params.footer]
     enable = true
     copyright = "Published under the Apache License 2.0."
+  [[params.footer.quicklinks]]
+    text = "Get this bootstrap theme!"
+    link = "https://startbootstrap.com/template-overviews/agency/"
+  [[params.footer.quicklinks]]
+    text = "Check out this site's soucecode"
+    link = "https://github.com/tstapler/senior-design-website"
