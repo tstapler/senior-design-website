@@ -111,7 +111,7 @@ theme = "hugo-agency-theme"
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
     title = "Screen Mockups"
-    subtitle = "Each screen the Cattle Krush app has to offer."
+    subtitle = "Click on the mockups to see each screen the Cattle Krush has to offer."
 
     [params.portfolio.modal]
       client = "Client"
