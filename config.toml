@@ -40,6 +40,7 @@ theme = "hugo-agency-theme"
     summary = "Summary"
     portfolio = "Mockups"
     weekly_reports = "Weekly Reports"
+    presentations = "Presentations"
     team = "About Us"
     contact = "Contact Info"
 
@@ -54,7 +55,7 @@ theme = "hugo-agency-theme"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
     # Use the weight attribute to order your custom links. Uncomment the example
-    # below and replace the values with your own.
+    # below and replace the valarc="https://docs.google.com/presentation/d/1SGkPyWYjqUohAEAfU2JleJZwLIB5I1XuAyGkUs7nBRI/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>s with your own.
 
     # prepended links
     #[[menu.prepend]]
@@ -123,8 +124,17 @@ theme = "hugo-agency-theme"
   [params.weekly_reports]
     enable = true
     title = "Weekly Reports"
-    subtitle = ""
+    subtitle = "The steady march of progress"
     drive_folder_id = "0B6EBAgXsSbcSS25UM2FCZkhzTUk"
+
+  [params.presentations]
+    enable = true
+    title = "Presentations"
+    subtitle = "Check out how well things have gone!"
+
+    [[params.presentations.list]]
+      name = "Semester 1 Pesentation - 12/07/2016"
+      presentation_id = "1SGkPyWYjqUohAEAfU2JleJZwLIB5I1XuAyGkUs7nBRI"
 
   # Team section
   [params.team]
@@ -170,7 +180,6 @@ theme = "hugo-agency-theme"
     [[params.team.members]]
       img = "tyler.jpg"
       name = "Tyler Stapler"
-      desc = "Senior in Computer Engineering interested in Distibuted Systems and Cyber Security."
       social = [
 	["fa-github", "https://github.com/tstapler"],
         ["fa-linkedin", "https://www.linkedin.com/in/tstapler"]

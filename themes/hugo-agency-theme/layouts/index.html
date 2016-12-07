@@ -23,10 +23,13 @@
       {{ partial "weekly_reports.html" . }}
     {{ end }}
 
+    {{ if .Site.Params.presentations.enable }}
+      {{ partial "presentations.html" . }}
+    {{ end }}
+
     {{ if .Site.Params.clients_list.enable }}
       {{ partial "clients.html" . }}
     {{ end }}
-
 
     {{ if .Site.Params.team.enable }}
       {{ partial "team.html" . }}
