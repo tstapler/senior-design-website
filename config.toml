@@ -88,12 +88,12 @@ theme = "hugo-agency-theme"
     [[params.summary.row.list]]
       icon = " fa-exclamation"
       title = "The Problem"
-      description = "Every year farmers across America lose hundreds of thousands of dollars selling their head. Keeping track of each individual head's feed, weight, age, and health is an overwhelming task to do be hand. On top of this, the Chicago Stock Exchange only provides room for profit a few hours each week."
+      description = "Every year farmers across America lose hundreds of thousands of dollars selling their head. Keeping track of each individual head's feed, weight, age, and health is an overwhelming task to do be hand. On top of this, the Chicago Board of Trade only provides room for profit a few hours each week."
 
     [[params.summary.row.list]]
       icon = " fa-lightbulb-o"
       title = "The Solution"
-      description = "Cattle Krush allows farmers to track every aspect of each individual head's health. It automatically calculates useful figures such as the cost of feeding head to a certain weight, or how long it will take for a head to reach its target weight. It also offers live notifications to the farmer when their head can be sold for a profit on the Chicago Stock Exchange."
+      description = "Cattle Krush allows farmers to track every aspect of each individual head's health. It automatically calculates useful figures such as the cost of feeding head to a certain weight, or how long it will take for a head to reach its target weight. It also offers live notifications to the farmer when their head can be sold for a profit on the Chicago Board of Trade."
 
     [[params.summary.row.list]]
       icon = "fa-plus"
