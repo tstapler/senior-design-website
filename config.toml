@@ -40,6 +40,7 @@ theme = "hugo-agency-theme"
     summary = "Summary"
     portfolio = "Mockups"
     weekly_reports = "Weekly Reports"
+    presentations = "Presentations"
     team = "About Us"
     contact = "Contact Info"
 
@@ -54,7 +55,7 @@ theme = "hugo-agency-theme"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
     # Use the weight attribute to order your custom links. Uncomment the example
-    # below and replace the values with your own.
+    # below and replace the valarc="https://docs.google.com/presentation/d/1SGkPyWYjqUohAEAfU2JleJZwLIB5I1XuAyGkUs7nBRI/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>s with your own.
 
     # prepended links
     #[[menu.prepend]]
@@ -87,12 +88,12 @@ theme = "hugo-agency-theme"
     [[params.summary.row.list]]
       icon = " fa-exclamation"
       title = "The Problem"
-      description = "Every year farmers across America lose hundreds of thousands of dollars selling their head. Keeping track of each individual head's feed, weight, age, and health is an overwhelming task to do be hand. On top of this, the Chicago Stock Exchange only provides room for profit a few hours each week."
+      description = "Every year farmers across America lose hundreds of thousands of dollars selling their head. Keeping track of each individual head's feed, weight, age, and health is an overwhelming task to do be hand. On top of this, the Chicago Board of Trade only provides room for profit a few hours each week."
 
     [[params.summary.row.list]]
       icon = " fa-lightbulb-o"
       title = "The Solution"
-      description = "Cattle Krush allows farmers to track every aspect of each individual head's health. It automatically calculates useful figures such as the cost of feeding head to a certain weight, or how long it will take for a head to reach its target weight. It also offers live notifications to the farmer when their head can be sold for a profit on the Chicago Stock Exchange."
+      description = "Cattle Krush allows farmers to track every aspect of each individual head's health. It automatically calculates useful figures such as the cost of feeding head to a certain weight, or how long it will take for a head to reach its target weight. It also offers live notifications to the farmer when their head can be sold for a profit on the Chicago Board of Trade."
 
     [[params.summary.row.list]]
       icon = "fa-plus"
@@ -110,7 +111,7 @@ theme = "hugo-agency-theme"
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
     title = "Screen Mockups"
-    subtitle = "Each screen the Cattle Krush app has to offer."
+    subtitle = "Click on the mockups to see each screen the Cattle Krush has to offer."
 
     [params.portfolio.modal]
       buttontext = "Close Mockup"
@@ -120,8 +121,17 @@ theme = "hugo-agency-theme"
   [params.weekly_reports]
     enable = true
     title = "Weekly Reports"
-    subtitle = ""
+    subtitle = "The steady march of progress"
     drive_folder_id = "0B6EBAgXsSbcSS25UM2FCZkhzTUk"
+
+  [params.presentations]
+    enable = true
+    title = "Presentations"
+    subtitle = "Check out how well things have gone!"
+
+    [[params.presentations.list]]
+      name = "Semester 1 Pesentation - 12/07/2016"
+      presentation_id = "1SGkPyWYjqUohAEAfU2JleJZwLIB5I1XuAyGkUs7nBRI"
 
   # Team section
   [params.team]
@@ -167,7 +177,6 @@ theme = "hugo-agency-theme"
     [[params.team.members]]
       img = "tyler.jpg"
       name = "Tyler Stapler"
-      desc = "Senior in Computer Engineering interested in Distibuted Systems and Cyber Security."
       social = [
 	["fa-github", "https://github.com/tstapler"],
         ["fa-linkedin", "https://www.linkedin.com/in/tstapler"]
@@ -202,3 +211,9 @@ theme = "hugo-agency-theme"
   [params.footer]
     enable = true
     copyright = "Published under the Apache License 2.0."
+  [[params.footer.quicklinks]]
+    text = "Get this bootstrap theme!"
+    link = "https://startbootstrap.com/template-overviews/agency/"
+  [[params.footer.quicklinks]]
+    text = "Check out this site's soucecode"
+    link = "https://github.com/tstapler/senior-design-website"

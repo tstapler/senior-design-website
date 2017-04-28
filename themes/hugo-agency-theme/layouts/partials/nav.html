@@ -42,6 +42,12 @@
           </li>
         {{ end }}
 
+        {{ if .Site.Params.presentations.enable }}
+          <li>
+            <a class="page-scroll" href="#presentations">{{ with .Site.Params.navigation.presentations }}{{ . | markdownify }}{{ end }}</a>
+          </li>
+        {{ end }}
+
         {{ if .Site.Params.about.enable }}
           <li>
             <a class="page-scroll" href="#about">{{ with .Site.Params.navigation.about }}{{ . | markdownify }}{{ end }}</a>
