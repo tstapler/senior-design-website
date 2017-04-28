@@ -53,6 +53,17 @@ theme = "hugo-agency-theme"
      name = "Project Plan"
      weight = 10
 
+     [[menu.postpend]]
+     url = "https://docs.google.com/a/iastate.edu/document/d/13LHsJROEl8JGCD5ERlFJUmB_4fSlC4a5lcG-qlNX94o/edit?usp=sharing"
+     name = "Final Report"
+     weight = 10
+
+     [[menu.postpend]]
+     url = "https://docs.google.com/drawings/d/1Ky8S7BphhCPN-rmxAI_8FO-CgrXexZkGlVvyYWkv9Ew/edit?usp=sharing"
+     name = "Poster"
+     weight = 10
+
+
     # Add custom links. Those can be pre- and postpended to the default menu above.
     # Use the weight attribute to order your custom links. Uncomment the example
     # below and replace the valarc="https://docs.google.com/presentation/d/1SGkPyWYjqUohAEAfU2JleJZwLIB5I1XuAyGkUs7nBRI/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>s with your own.
@@ -132,6 +143,10 @@ theme = "hugo-agency-theme"
     [[params.presentations.list]]
       name = "Semester 1 Pesentation - 12/07/2016"
       presentation_id = "1SGkPyWYjqUohAEAfU2JleJZwLIB5I1XuAyGkUs7nBRI"
+
+    [[params.presentations.list]]
+      name = "Semester 2 Pesentation - 04/28/2017"
+      presentation_id = "12FHZgGiuDEakZJNusJruaBqDyGtbytdrrWVwOSHGwBQ"
 
   # Team section
   [params.team]
